@@ -18,8 +18,8 @@ export const initDB = async () => {
         id int auto_increment primary key,
         name varchar(100),
         address varchar(100),
-        latitude decimal(10, 8),
-        longitude decimal(11, 8)
+        latitude float,
+        longitude float
       )
     `);
     console.log("Database initialized: 'school' table is ready.");
