@@ -1,10 +1,11 @@
 import { Request, Response } from "express";
 import { pool } from "../config/db";
 import { FieldPacket, ResultSetHeader } from "mysql2";
+import SchoolSchema from "../models/school";
 
 export const getAllSchools = async (req: Request, res: Response) => {
   try {
-    const connection = await pool.getConnection();
+    const connection = await pool.getConnection(); 
     const result = await connection.query("select * from schools");
     connection.release();
     res.status(200).json(result[0]);
