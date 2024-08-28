@@ -28,6 +28,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Documentation
 # School Management API Documentation
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://www.postman.com/seudonym/workspace/educase-india/documentation/29389798-3f7263e3-d323-4fee-a84a-bd06110fc178)
 
 ## Add School API
 
